@@ -43,18 +43,28 @@
       <img src="" alt="" id="header-banner-img" class="w-full max-h-full">
     </section>
   </header>
-  <main class="bg-teal-300 py-20 px-[10vw] grid grid-cols-3 gap-5">
-    <div class="border h-64"></div>
-    <div class="border h-64"></div>
-    <div class="border h-64"></div>
-    <div class="border h-64"></div>
-    <div class="border h-64"></div>
-    <div class="border h-64"></div>
+  <main class="bg-teal-300 py-20 px-[10vw] flex flex-col gap-10">
+    <section id="gallery-container" class="grid grid-cols-3 gap-5">
+      <div class=""></div>
+      <div class=""></div>
+      <div class=""></div>
+      <div class=""></div>
+      <div class=""></div>
+      <div class=""></div>
+    </section>
+    <div class="flex justify-center gap-14">
+      <input id="link-input-box" type="text" placeholder="Enter image address" class="input input-bordered input-success w-full max-w-xs" />
+      <button class="btn btn-wide" onclick="uploadImage()">upload</button>
+    </div>
   </main>
+  <p id="p1">bllue</p>
   <footer></footer>
+
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/utilities.js"></script>
   <script src="js/styles.js"></script>
   <script src="js/random-image-maker.js"></script>
+  <script src="js/uploadImg.js"></script>
 </body>
 
 </html>
